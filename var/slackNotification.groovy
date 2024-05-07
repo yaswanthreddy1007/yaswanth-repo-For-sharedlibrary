@@ -26,3 +26,5 @@ def call(String buildStatus = 'STARTED') {
 
  slackSend (color: colorCode, message: summary,channel: #Pipeline)
 }
+
+

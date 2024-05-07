@@ -24,5 +24,5 @@ def call(String buildStatus = 'STARTED') {
   slackSend (color: colorCode, message: summary)
  // Send Notification into particular Channel
 
- slackSend (color: colorCode, message: summary,channel: #Pipeline)
+ slackSend (color: colorCode, message: summary)
 }
